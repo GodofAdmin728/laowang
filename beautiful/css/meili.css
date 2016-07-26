@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.left{
+	float: left;
+	width: 386px;
+	height: 334px;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.logo1{
+	width: 386px;
+	height: 334px;
+}
+.opa{
+	width: 386px;
+	height: 334px;
+	opacity: 0.5;
+	background-color: #666;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+
+}
+.text1{
+     width: 120px;
+     height: 44px;
+     border: 1px solid #fff;
+     color: #fff;
+     position: absolute;
+     left: 50%;
+     margin-left:-60px;
+     top: 0;
+     margin-top: 110px;
+     text-align: center;
+     line-height: 44px;
+     display: none;
+    
+
+}
+.text2{
+	 width: 120px;
+     height: 44px;
+     border: 1px solid #fff;
+     color: #fff;
+     position: absolute;
+     left: 50%;
+     margin-left: -60px;
+     top: 0;
+     margin-top: 182px;
+     text-align: center;
+     line-height: 44px;
+     display: none;
+     
+}
+.left:hover .opa {
+	display: block;
+}
+.left:hover .text1{
+	display: block;
+}
+.left:hover .text2{
+	display: block;
+}
+.left:hover .text3{
+	display: block;
+}
+/*.text_b{
+	width: 122px;
+	height: 115px;
+	position: absolute;
+	left: 50%;
+	margin-left: -61px;
+	top: 50%;
+	margin-top: -57px;
+	
+}*/
+.text3{
+	display: none;
+}
+.text4{
+	
+	background-color: #fff;
+	color: black;
+	display: none;
+}
+.text1:hover .text3{
+	display: none;
+}
+.text1:hover .text4{
+	display: block;
+}
+.text2:hover{
+	background-color: #fff;
+	color: black;
+}
